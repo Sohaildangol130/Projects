@@ -1,0 +1,99 @@
+/*nav bar*/
+.topnav {
+    display: inline-block;
+    list-style-type: none;
+    border-radius: 70px;
+    
+}
+
+.topnav a {
+border-radius: 70px;
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+    color: #505151;
+}
+
+.topnav a:hover {
+  background-color: #cecece;
+  color: white;
+}
+
+.topnav a.active {
+  background-color: #b5b5b5;
+  color: white;
+}
+
+.a{
+    text-align: center;
+}
+
+/*footer*/
+    .footer{
+        background-color: #636363;
+        position: absolute;
+        height: 150px;
+        width: 100%;
+        text-align: center;         
+    }
+
+.fa {
+        position: relative;
+        left: 450px;
+        top: 45px;
+padding: 10px;
+  font-size: 20px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius:10%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  color: white;
+}
+.fa-google {
+
+  color: white;
+}
+
+.fa-linkedin {
+
+  color: white;
+}
+
+.fa-youtube {
+
+  color: white;
+}
+
+.fa-instagram {
+
+  color: white;
+}
+
+.color{
+    position: absolute;
+    top: 55px;
+    left: 50px;
+    color: white;
+}
+
+    /*animation*/
+
+    .titleanimation {       
+        animation: a 0.5s;
+}
+
+    @keyframes a {
+        from {opacity: 0};
+        to {opacity: 1};
+    }

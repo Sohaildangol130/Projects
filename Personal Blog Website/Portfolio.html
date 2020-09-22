@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="css/nav%20bar%20footer%20animation.css"/>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Portfolio</title>
+</head>
+    
+<style>
+    body {
+        background-color: white;
+        margin: 0;
+        font-family: Trebuchet MS, Helvetica, sans-serif;
+        
+    }
+    .b{
+        background-color: black;
+        height: 300px;
+        width: 100%;
+    }
+    .li{
+        color: white;
+    }
+    
+    
+
+
+
+
+/*first flex*/
+		.row1{
+        display: flex;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            padding: 20px;
+            background-color: black;
+
+    }
+    
+    .left{
+        flex: 50%;
+        
+    }
+    
+    .right{
+        flex: 75%;
+
+    }
+
+/*other flex*/
+    .row{
+        display: flex;
+    padding: 20px;
+    }
+    
+    .leftcolumn{
+        flex: 25%;
+    }
+    
+    .rightcolumn{
+        flex: 75%;
+        padding-left: 20px;
+    }
+    
+    .card{
+        background-color: mintcream;
+        padding: 20px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        margin-top: 20px;
+    }
+
+    img{
+        height: 190px;
+        width: 270px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+/*progress bar*/
+
+.meter { 
+			height: 25px;
+			position: relative;
+    top: 5px;
+    left: 20px;
+
+			border-radius: 25px;
+			box-shadow        : inset 0 -1px 1px rgba(255,255,255,0.3);
+		}
+		.meter > span {
+			display: block;
+			height: 100%;
+			           	
+			box-shadow: 
+			  inset 0 2px 9px  rgba(255,255,255,0.3),
+			  inset 0 -2px 6px rgba(0,0,0,0.4);
+			position: relative;
+			overflow: hidden;
+		}
+		.meter > span:after, .animate > span > span {
+			content: "";
+			position: absolute;
+			top: 0; left: 0; bottom: 0; right: 0;
+					
+		}
+
+		.orange > span {
+			background-color: #fff7e5;
+		}
+
+/*education*/
+.row2{
+        display: flex;
+    padding: 20px;
+    }
+.card2{
+    width: 100%;
+        background-color: mintcream;
+        padding: 20px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+      .mySlides {
+        display:none;
+    }
+    
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 800px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;    
+  }
+}
+    
+    
+</style>    
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js"></script>
+<script>
+    $(function() {
+    $(".meter > span").each(function() {
+    $(this)
+    .data("origWidth", $(this).width())
+    .width(0)
+    .animate({
+    width: $(this).data("origWidth")
+    }, 1200);
+    });
+    });
+</script>
+    
+
+<body>
+
+<div class="titleanimation">
+    <br>
+    <div class="a">
+        <div class="topnav">
+            <a href="homepage.html">Home</a>
+            <a href="Blog.html">Blog</a>
+            <a class="active" href="#about">Portfolio</a>
+            <a href="Research.html">Research</a> 
+            <a href="about%20us.html">Contact me</a>
+        </div>
+    </div>
+<br>
+    <div class="row1">
+        <div class="left">
+            <div class="card1">
+                <div class="b">
+                    <p style="font-size:5vw; color: white; position: absolute; top: 40%; left: 9%;">Portfolio</p>          
+                </div>
+            </div>            
+        </div>
+        <div class="right">
+            <div class="w3-content w3-section">
+                <img class="mySlides" src="images/me4.JPG" style="width:100%; height: 100%;">
+                <img class="mySlides" src="images/me5.JPG" style="width:100%; height: 100%;">
+                <img class="mySlides" src="images/me2.JPG" style="width:100%; height: 100%;">
+            </div> 
+        </div>
+    </div>
+    
+    <div class="row">
+        <div class="leftcolumn">
+<div data-aos="zoom-in"><div class="card">
+                    <img src="images/me2.JPG" >
+                    <p align="middle" ><font size=5>Sohail Dangol</font></p> 
+                    <li type="square">Banasthali, Kathmandu</li>
+                    <br>
+                    <li type="square">sohail.dangol130@gmail.com</li>
+                    <br>
+                    <li type="square">9861282607</li>
+            </div></div>
+            
+            <div class="card">
+                <li type="square">Student</li>
+                <br>
+                <li type="square">Web Enthusiast</li>
+                <br>
+                <li type="square">Athlete</li>
+                <br>
+                <hr width="90%">
+                        
+            </div>            
+        </div>
+        <div class="rightcolumn">
+            <div class="card">               
+                <p align="middle"><font size=5>Skills</font></p><br>
+                <div id="page-wrap">
+                    <li>Photography<div class="meter orange nostripes">
+                        <span style="width: 60%"> &nbsp;&nbsp;&nbsp;60%</span>
+                    </div></li>
+                    <hr width="100%">
+                    <br>
+                    <li>Web Designing<div class="meter orange nostripes">
+                        <span style="width: 20%"> &nbsp;&nbsp;&nbsp;20%</span>
+                    </div></li>
+                    <hr width="100%">
+                    <br>
+                    <li>Music<div class="meter orange nostripes">
+                        <span style="width: 65%"> &nbsp;&nbsp;&nbsp;65%</span>
+                    </div></li>
+                    <hr width="100%">
+                    <br>
+                    <li>Football<div class="meter orange nostripes">
+                        <span style="width: 45%"> &nbsp;&nbsp;&nbsp;45%</span>
+                    </div></li>
+                    <hr width="100%"> 
+                    <br>
+                    <li>Music<div class="meter orange nostripes">
+                        <span style="width: 65%"> &nbsp;&nbsp;&nbsp;65%</span>
+                    </div></li>
+                    <hr width="100%">
+                </div> 
+            </div>
+            
+        </div>
+        
+    </div>
+    <div class="row2">
+    <div class="card2"><h2 align="middle">Education</h2>
+                <p align="justify">Triyog H.S. School</p>
+                <hr width="100%">
+                <p align="justify">Uniglobe H.S. School</p>
+                <hr width="100%">
+                <p align="justify">Islington College </p>
+                <hr width="100%">
+                <br>
+    </div>
+    </div>
+    <br><br>
+
+    </div>
+    <div class="footer">
+        <p class="color">Sohail Dangol &#169; 2019</p>
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-google"></a>
+        <a href="#" class="fa fa-linkedin"></a>
+        <a href="#" class="fa fa-youtube"></a>
+        <a href="#" class="fa fa-instagram"></a>
+    </div>
+</body>
+    
+<!--    image slider-->
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+</html>
+
+
+    

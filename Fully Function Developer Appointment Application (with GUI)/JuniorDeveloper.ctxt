@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=JuniorDeveloper
+comment0.text=Made\ by\ Sohail\ Dangol
+comment1.params=platform\ interviewer\ workhour\ salary\ Appointedby\ TerminationDate
+comment1.target=JuniorDeveloper(java.lang.String,\ java.lang.String,\ int,\ double,\ java.lang.String,\ java.lang.String)
+comment10.params=
+comment10.target=void\ Show()
+comment2.params=
+comment2.target=double\ getsalary()
+comment3.params=
+comment3.target=java.lang.String\ getappointdate()
+comment4.params=
+comment4.target=java.lang.String\ getterminatedate()
+comment5.params=
+comment5.target=java.lang.String\ getspecility()
+comment6.params=
+comment6.target=java.lang.String\ getappointedby()
+comment7.params=
+comment7.target=boolean\ getjoined()
+comment8.params=Salary
+comment8.target=void\ setsalary(double)
+comment9.params=developer\ AppointedDate\ TerminationDate\ Specialization
+comment9.target=void\ Developerappoint(java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String)
+numComments=11

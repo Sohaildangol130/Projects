@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=RigoTechnology
+comment1.params=arg
+comment1.target=void\ main(java.lang.String[])
+comment2.params=
+comment2.target=void\ Rigo_technology()
+comment3.params=ae
+comment3.target=void\ actionPerformed(java.awt.event.ActionEvent)
+numComments=4
